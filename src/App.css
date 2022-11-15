@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .App-logo {
@@ -14,10 +15,15 @@
 }
 
 .App-header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
